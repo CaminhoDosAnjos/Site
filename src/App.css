@@ -1,115 +1,21 @@
-.App {
-  text-align: center;
+.under_construction {
+    background: url(../src/images/old_black_texture.jpg);
+    background-position: center top;
+    background-size: 100% auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.under_construction h1 {
+    color: yellow;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.under_construction h3 {
+    color: #FFF;
+    margin-top: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.under_construction svg {
+    color: white;
+    margin: 0.4em;
+    font-size: 2em;
+    margin-top: 1em;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-/* html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, b, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-.App {
-  text-align: center;
-}
-
-.Menu-Topo {
-  background-color: darkblue;
-  color: white;
-}
-
-.Menu-Topo ul {
-  padding: 0.6em;
-}
-
-.Menu-Topo li {
-  list-style: none;
-  display: inline;
-  padding: 1em;
-}
-
-.Logotipo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2em;
-}
-
-.App-logo {
-  width: 200px;
-}
-
-*/
