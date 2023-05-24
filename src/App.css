@@ -1,21 +1,68 @@
-.under_construction {
-    background: url(../src/images/old_black_texture.jpg);
-    background-position: center top;
-    background-size: 100% auto;
+body {
+  background-color: #f1f1f1;
 }
 
-.under_construction h1 {
-    color: yellow;
+main {
+  margin-top: 0.7em;
 }
 
-.under_construction h3 {
-    color: #FFF;
-    margin-top: 1em;
+.title {
+  font-weight: 700;
 }
 
-.under_construction svg {
-    color: white;
-    margin: 0.4em;
-    font-size: 2em;
-    margin-top: 1em;
+.link {
+  text-decoration: none;
+}
+
+.icon {
+  color: black;
+  margin-right: 2rem;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+}
+
+.icon:hover {
+  transition: all 0.3s;
+  color: darkgoldenrod;
+}
+
+.assinatura {
+  margin-top: 3rem;
+}
+
+.assinatura a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700; 
+}
+
+.assinatura a:hover {
+  transition: all 0.3s;
+  color: darkgoldenrod;
+}
+
+Row {
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+@media (max-width:768px) {
+  body {
+    text-align:center; 
+  }
+
+  .title {
+    margin-top: 2rem;
+  }
+
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    margin-right: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
