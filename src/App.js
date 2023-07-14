@@ -7,6 +7,7 @@ import Menu from './components/Menu/Menu';
 import Slider from './components/Slider/Slider';
 import Destaques from './components/Destaques/Destaques';
 import Footer from './components/Footer/Footer';
+import Construction from './components/Construction/Construction';
 
 const App = () => (
   <Fragment>
@@ -15,13 +16,14 @@ const App = () => (
       <Container fluid className='px-0'>
         <Row>
         
-          <Col md = {{ size: 12 }}>
-            <Header />
+          <Col md={{ size: 12 }}>
+            <Construction />
+            {/* <Header />
             <Logo />
             <Menu />
             <Slider />
             <Destaques />
-            <Footer />
+            <Footer /> */}
           </Col>
           
         </Row>
