@@ -1,23 +1,27 @@
 import React, { Fragment } from 'react';
-import axios from 'axios';
 import { Container, Row, Col } from 'reactstrap';
 
-import Left from './components/Left';
-import Right from './components/Right';
+import Header from './components/Header/Header';
+import Logo from './components/Logo/Logo';
+import Menu from './components/Menu/Menu';
+import Slider from './components/Slider/Slider';
+import Destaques from './components/Destaques/Destaques';
+import Footer from './components/Footer/Footer';
 
 const App = () => (
   <Fragment>
     
     <main>
-      <Container fluid>
+      <Container fluid className='px-0'>
         <Row>
         
-          <Col xs={{ order: 1 }} md={{ size: 6 }} className="m-0 p-0">
-            <Left />
-          </Col>
-          
-          <Col xs={{ order: 2 }} md={{ size: 6 }} className="m-0 p-0">
-            <Right />
+          <Col md = {{ size: 12 }}>
+            <Header />
+            <Logo />
+            <Menu />
+            <Slider />
+            <Destaques />
+            <Footer />
           </Col>
           
         </Row>
