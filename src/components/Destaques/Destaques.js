@@ -5,7 +5,7 @@ import './Destaques.css';
 const Destaques = () => (
 
     <div>
-        Destaques
+        
     </div>
 
     

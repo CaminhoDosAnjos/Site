@@ -5,7 +5,7 @@ import './Slider.css';
 const Slider = () => (
 
     <div>
-        Slider
+        
     </div>
 
     
