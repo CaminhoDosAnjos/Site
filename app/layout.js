@@ -1,17 +1,24 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "./sections/footer";
+import Header from "./sections/header";
+import Logo from "./sections/logo";
+import Navigation from "./sections/navigation";
+import "./styles/globals.css";
 
 export const metadata = {
   title: "Caminho dos Anjos",
-  description: "Site em Construção",
+  description: "Caminho dos Anjos",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Header />
+        <Logo />
+        <Navigation />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
